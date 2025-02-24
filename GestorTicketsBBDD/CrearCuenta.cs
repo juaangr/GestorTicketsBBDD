@@ -12,16 +12,13 @@ using MaterialSkin.Controls;
 
 namespace GestorTicketsBBDD
 {
-    public partial class GestorTicketsBBDD : MaterialForm
+    public partial class CrearCuenta : MaterialForm
     {
-        // public event EventHandler EventoLogin;
-
-
-        public GestorTicketsBBDD()
+        public CrearCuenta()
         {
             InitializeComponent();
 
-            // configuración del materialSkin
+            // configuración del materialSkin - copiado
             var skinManager = MaterialSkinManager.Instance;
             skinManager.AddFormToManage(this);
             skinManager.Theme = MaterialSkinManager.Themes.LIGHT; // ponemos el tema en oscuro por predet
@@ -31,27 +28,9 @@ namespace GestorTicketsBBDD
                 Primary.Red50,
                 Accent.DeepPurple200,
                 TextShade.WHITE);
-
         }
 
-        private void BtnIniSesion_Click(object sender, EventArgs e)
-        {
-            InicioSesion inicioSesionForm = new InicioSesion();
-            inicioSesionForm.ShowDialog();
-        }
-
-        private void BtnCrearCuenta_Click(object sender, EventArgs e)
-        {
-            CrearCuenta crearCuentaForm = new CrearCuenta();
-            crearCuentaForm.ShowDialog();
-        }
-
-        private void GestorTicketsBBDD_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void LabelPrincipal_Click(object sender, EventArgs e)
+        private void BtnSaveIni_Click(object sender, EventArgs e)
         {
 
         }
