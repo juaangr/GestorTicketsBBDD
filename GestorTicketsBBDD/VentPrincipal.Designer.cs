@@ -29,10 +29,9 @@
         private void InitializeComponent()
         {
             this.MenuLateral = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.materialButton1 = new MaterialSkin.Controls.MaterialButton();
-            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.BtnTickets = new MaterialSkin.Controls.MaterialButton();
+            this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.MenuLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -41,7 +40,6 @@
             // 
             this.MenuLateral.Controls.Add(this.BtnTickets);
             this.MenuLateral.Controls.Add(this.materialButton2);
-            this.MenuLateral.Controls.Add(this.materialButton1);
             this.MenuLateral.Controls.Add(this.pictureBox1);
             this.MenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuLateral.Location = new System.Drawing.Point(3, 64);
@@ -49,36 +47,25 @@
             this.MenuLateral.Size = new System.Drawing.Size(171, 470);
             this.MenuLateral.TabIndex = 0;
             // 
-            // pictureBox1
+            // BtnTickets
             // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Image = global::GestorTicketsBBDD.Properties.Resources.LogoGestorTickets;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(171, 42);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // materialButton1
-            // 
-            this.materialButton1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.materialButton1.Depth = 0;
-            this.materialButton1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.materialButton1.HighEmphasis = true;
-            this.materialButton1.Icon = null;
-            this.materialButton1.Location = new System.Drawing.Point(0, 42);
-            this.materialButton1.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialButton1.Name = "materialButton1";
-            this.materialButton1.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.materialButton1.Size = new System.Drawing.Size(171, 36);
-            this.materialButton1.TabIndex = 1;
-            this.materialButton1.Text = "materialButton1";
-            this.materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.materialButton1.UseAccentColor = false;
-            this.materialButton1.UseVisualStyleBackColor = true;
+            this.BtnTickets.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.BtnTickets.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            this.BtnTickets.Depth = 0;
+            this.BtnTickets.Dock = System.Windows.Forms.DockStyle.Top;
+            this.BtnTickets.HighEmphasis = true;
+            this.BtnTickets.Icon = null;
+            this.BtnTickets.Location = new System.Drawing.Point(0, 78);
+            this.BtnTickets.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+            this.BtnTickets.MouseState = MaterialSkin.MouseState.HOVER;
+            this.BtnTickets.Name = "BtnTickets";
+            this.BtnTickets.NoAccentTextColor = System.Drawing.Color.Empty;
+            this.BtnTickets.Size = new System.Drawing.Size(171, 36);
+            this.BtnTickets.TabIndex = 3;
+            this.BtnTickets.Text = "Tickets";
+            this.BtnTickets.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            this.BtnTickets.UseAccentColor = false;
+            this.BtnTickets.UseVisualStyleBackColor = true;
             // 
             // materialButton2
             // 
@@ -88,7 +75,7 @@
             this.materialButton2.Dock = System.Windows.Forms.DockStyle.Top;
             this.materialButton2.HighEmphasis = true;
             this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(0, 78);
+            this.materialButton2.Location = new System.Drawing.Point(0, 42);
             this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton2.Name = "materialButton2";
@@ -100,25 +87,16 @@
             this.materialButton2.UseAccentColor = false;
             this.materialButton2.UseVisualStyleBackColor = true;
             // 
-            // BtnTickets
+            // pictureBox1
             // 
-            this.BtnTickets.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BtnTickets.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
-            this.BtnTickets.Depth = 0;
-            this.BtnTickets.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnTickets.HighEmphasis = true;
-            this.BtnTickets.Icon = null;
-            this.BtnTickets.Location = new System.Drawing.Point(0, 114);
-            this.BtnTickets.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-            this.BtnTickets.MouseState = MaterialSkin.MouseState.HOVER;
-            this.BtnTickets.Name = "BtnTickets";
-            this.BtnTickets.NoAccentTextColor = System.Drawing.Color.Empty;
-            this.BtnTickets.Size = new System.Drawing.Size(171, 36);
-            this.BtnTickets.TabIndex = 3;
-            this.BtnTickets.Text = "Tickets";
-            this.BtnTickets.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-            this.BtnTickets.UseAccentColor = false;
-            this.BtnTickets.UseVisualStyleBackColor = true;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox1.Image = global::GestorTicketsBBDD.Properties.Resources.LogoGestorTickets;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(171, 42);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // VentPrincipal
             // 
@@ -141,6 +119,5 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialButton BtnTickets;
         private MaterialSkin.Controls.MaterialButton materialButton2;
-        private MaterialSkin.Controls.MaterialButton materialButton1;
     }
 }
