@@ -32,6 +32,7 @@
             this.BtnTickets = new MaterialSkin.Controls.MaterialButton();
             this.materialButton2 = new MaterialSkin.Controls.MaterialButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.MenuLateral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -55,7 +56,7 @@
             this.BtnTickets.Dock = System.Windows.Forms.DockStyle.Top;
             this.BtnTickets.HighEmphasis = true;
             this.BtnTickets.Icon = null;
-            this.BtnTickets.Location = new System.Drawing.Point(0, 78);
+            this.BtnTickets.Location = new System.Drawing.Point(0, 88);
             this.BtnTickets.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.BtnTickets.MouseState = MaterialSkin.MouseState.HOVER;
             this.BtnTickets.Name = "BtnTickets";
@@ -75,7 +76,7 @@
             this.materialButton2.Dock = System.Windows.Forms.DockStyle.Top;
             this.materialButton2.HighEmphasis = true;
             this.materialButton2.Icon = null;
-            this.materialButton2.Location = new System.Drawing.Point(0, 42);
+            this.materialButton2.Location = new System.Drawing.Point(0, 52);
             this.materialButton2.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
             this.materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialButton2.Name = "materialButton2";
@@ -93,16 +94,25 @@
             this.pictureBox1.Image = global::GestorTicketsBBDD.Properties.Resources.LogoGestorTickets;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(171, 42);
+            this.pictureBox1.Size = new System.Drawing.Size(171, 52);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(174, 64);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(701, 470);
+            this.panel1.TabIndex = 1;
             // 
             // VentPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(878, 537);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.MenuLateral);
             this.Name = "VentPrincipal";
             this.Text = "VentPrincipal";
@@ -119,5 +129,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialButton BtnTickets;
         private MaterialSkin.Controls.MaterialButton materialButton2;
+        private System.Windows.Forms.Panel panel1;
     }
 }
